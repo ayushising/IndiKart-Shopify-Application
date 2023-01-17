@@ -1,0 +1,33 @@
+server:
+  port: 8087
+
+spring:
+  application:
+    name: API_GATEWAY
+  cloud:
+    gateway:
+      routes:
+      - id: PRODUCT-DETAILS
+        uri: http://localhost:8082/
+               
+        predicates:
+        - Path=/shopify/products/** 
+
+      - id: CUSTOMER
+        uri: http://localhost:9091/
+        
+        predicates:
+        - Path=/shopify/user/** 
+        
+      - id: ADD-TO-CART
+        uri: http://localhost:8081/
+        
+        predicates:
+        - Path=/shopify/cart/** 
+        
+       
+       
+        
+        
+   
+   
