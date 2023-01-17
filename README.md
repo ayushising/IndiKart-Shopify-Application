@@ -1,20 +1,22 @@
 # IndiKart-Shopify-Application
 
 IndieKart is one stop solution for all your needs with focus on supporting .
-Make in India Goods and Services.
+Make in India Goods and Services.InkiKart aims at providing a hassle free and enjoyable shopping experience to shoppers across the country with the largest range of products and brands . IndiKart is user friendly and we try to provide best user experince.
 
 # Fucntion
-1- Login
-2- Registration
-3- Add to Cart
-4- Delete From Cart
-5- Payment Service
-6- Order Service
-7- Authentication using Firebase
+<ul>
+<li> Login<br>
+<li> Registration<br>
+<li> Add to Cart<br>
+<li> Delete From Cart<br>
+<li> Payment Service<br>
+<li> Order Service <br>
+<li>  Authentication using Firebase<br>
+</ul>
 
-#Payment Gateway
+# Payment Gateway
 Stripe
 
-#Database Used:- 
+# Database Used:- 
 MongoDB
 
