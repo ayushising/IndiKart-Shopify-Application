@@ -1,0 +1,28 @@
+.container {
+    /* margin-top: 10000px; */
+    height: 420px;
+    width: 335px;
+    background: #FEBE68;
+    margin: 10px;
+    
+    
+}
+img{
+    width: 305px;;
+}
+.AdvertisementOne__header {
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: bold;
+    padding: 15px
+}
+
+.AdvertisementOne__body {
+    padding-left: 15px;
+}
+
+.AdvertisementOne__footer {
+    padding: 15px;
+    font-size: x-large;
+    font-weight: bold;
+}

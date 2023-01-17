@@ -1,0 +1,59 @@
+.pro{
+    display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-left: 80px;
+        background-color: rgb(241, 244, 243);
+        
+
+}
+.pro_flex{
+    flex: 0 0 29.333333%;
+
+
+}
+.outer{
+
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.orderhead{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 70px;
+    color:darkgray;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 6px;
+}
+.hrOrder{
+    margin-left: 580px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 290px;
+    border-radius: 20px;
+    border-top: 1px solid rgba(37, 36, 36, 0.1);
+}
+.imageOrder{
+
+}
+.ordertrend {
+    margin-left: 380px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    color: darkgray;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 4px;
+}
+
+.hrtrend {
+    margin-left: 480px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 350px;
+    border-radius: 20px;
+    border-top: 1px solid rgba(37, 36, 36, 0.1);
+}

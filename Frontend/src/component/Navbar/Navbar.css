@@ -1,0 +1,200 @@
+.navbar__component {
+    width: 100vw;
+    height: 60px;
+    background-color: #f1f6f6;
+    display: flex;
+    color:#22303E;
+    /* margin-left: 10px; */
+    box-shadow: 5px  #8b8c8d;
+    z-index: 10;
+    top:0;
+    position: fixed;
+}
+
+.navbar__logo {
+    /* background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -9px -50px; */
+    width: 98px;
+    background-repeat: no-repeat;
+    height: 31px;
+    /* margin: 18px; */
+    margin-left: 18px;
+    margin-top: 5px;
+    color: #22303E;
+    font-weight: bold;
+    font-size: larger;
+
+   
+}
+
+.navbar__locator {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.navbar__location {
+    color: #22303E;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.navbar__locatorImage {
+    background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -70px -378px;
+    width: 16px;
+    height: 18px;
+}
+
+.navbar__searchcomponent {
+    /* display: flex;
+    margin-left: 110px;
+    border-radius: 20px;
+    background-color: #040302; */
+}
+
+.navbar__seaarchboxdiv {
+    background-color: #FEBE68;
+    height: 44px;
+    width: 48px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 8px;
+}
+
+.navbar__searchbox {
+    margin-left: 110px;
+    width: 540px;
+    height: 38px;
+    margin-top: 8px;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+}
+
+.navbar__searchicon {
+    background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -9px -289px;
+    width: 23px;
+    height: 23px;
+    margin-top: 20px;
+
+}
+
+.nav__dropdown {
+    width: 60px;
+    height: 44px;
+    margin-top: 8px;
+    background-color: #e6e5e5;
+    border-radius: 5px 0px 0px 5px;
+    text-align-last: center;
+}
+Link{
+    text-decoration: none;
+    color: rgb(246, 238, 238);
+    width: 120px;
+        margin-top: 13px;
+        margin-left: 60px;
+        cursor: pointer;
+        font-weight: 500;
+
+    }
+
+.navbar__signin {
+    width: 120px;
+    margin-top: 13px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.navbar__returns {
+    width: 80px;
+    margin-top: 13px;
+    margin-left: 10px
+}
+
+.navbar__cart {
+    display: flex;
+
+}
+
+.navbar_text {
+    
+    color: black;
+}
+
+.cart__image {
+    background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -217px -336px;
+    width: 43px;
+    height: 30px;
+    
+
+}
+
+.navbar_text_cart {
+    margin-top: 13px;
+    font-weight: bold;
+    position: relative;
+    left: -10px;
+}
+
+.cart__item {
+    font-weight: bold;
+    position: relative;
+    left: -23px;
+    top: -3px;
+    color: #22303E;
+}
+
+.navbar__footer {
+    width: 100vw;
+    height: 30px;
+    background-color: #22303E;
+    color: white;
+    display: flex;
+}
+
+.navbar__footer_text {
+    margin: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.right{
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+    gap: 20px;
+    margin-top: 15px;
+}
+.profile{
+    cursor: pointer;
+    font-weight: 600;
+    color:#22303E;
+    display: flex;
+    flex-direction: column;
+    
+}
+.searchButton{
+    background-color: #FEBE68;
+    height: 36px;
+        width: 44px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input{
+        padding-left: 20px;
+            font-size: 1.1em;
+            width: 100%;
+            margin-bottom: 10px;
+            margin-left: 20px;
+
+}
+.linknav{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    
+        color: #22303E;
+        display: flex;
+        flex-direction: column;
+
+
+}

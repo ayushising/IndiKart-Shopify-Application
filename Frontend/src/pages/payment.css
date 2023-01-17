@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+:root {
+    --light-grey: #F6F9FC;
+    --dark-terminal-color: #0A2540;
+    --accent-color: #635BFF;
+    --radius: 3px;
+}
+
+
+main {
+    width: 480px;
+}
+
+form>* {
+    margin: 10px 0;
+}
+
+button {
+    background-color: var(--accent-color);
+}
+form button {
+    margin-left: 140px;
+    font-size: large;
+
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    color: #FAFAFA;
+    background: #020304;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+
+}
+button {
+    /* background: var(--accent-color); */
+    background-color: #091313;
+    border-radius: var(--radius);
+    color: rgb(168, 22, 22);
+    border: 0;
+    padding: 12px 16px;
+    margin-top: 16px;
+    font-weight: 600;
+    
+    transition: all 0.2s ease;
+    
+}
+
+button:hover {
+    filter: contrast(115%);
+}
+
+button:active {
+    transform: translateY(0px) scale(0.98);
+    filter: brightness(0.9);
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: none;
+}
+
+input,
+select {
+    display: block;
+    font-size: 1.1em;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+a {
+    color: var(--accent-color);
+    font-weight: 900;
+}
+
+small {
+    font-size: .6em;
+}
+
+fieldset,
+input,
+select {
+    border: 1px solid #efefef;
+}
+
+#payment-form {
+    height: 370px;
+    width: 540px;
+    margin-top: 50px;
+    margin-left: 390px;
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+    border: #ecedee solid 1px;
+    background-color: #e1e6e6;
+    color:#ecedee;
+    
+    border-radius: var(--radius);
+    padding: 20px;
+
+    box-shadow: 0 30px 50px -20px rgb(50 50 93 / 25%), 0 30px 60px -30px rgb(0 0 0 / 30%);
+}
+
+#messages {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    display: none;
+    /* hide initially, then show once the first message arrives */
+    background-color: #000101;
+    color: #00D924;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: var(--radius);
+    font-size: 0.7em;
+}
+.orderPayment {
+
+    margin-left: 490px;
+    margin-top: 190px;
+    text-align: center;
+    font-size: 50px;
+    color: darkgray;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 5px;
+}
+
+.hrPayment {
+    margin-left: 490px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 290px;
+    border-radius: 20px;
+    border-top: 1px solid rgba(37, 36, 36, 0.1);
+}
+.orderCom {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    color: darkgray;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 5px;
+}
+
+.hrCom {
+    margin-left: 580px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 290px;
+    border-radius: 20px;
+    border-top: 1px solid rgba(37, 36, 36, 0.1);
+}
+.browse{
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    color: #FAFAFA;
+    background: #020304;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    font-size: large;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
